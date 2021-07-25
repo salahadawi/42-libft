@@ -40,7 +40,7 @@ char		**ft_strsplit(char const *s, char c)
 	size_t	stopper;
 
 	if (!s || !(array = (char **)malloc(sizeof(char *)
-	* ft_len(s, c) + sizeof(char))))
+	* ft_len(s, c) + sizeof(char*))))
 		return (NULL);
 	i = 0;
 	j = 0;
